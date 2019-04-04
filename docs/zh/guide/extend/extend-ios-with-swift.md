@@ -91,7 +91,7 @@
       <script>
         module.exports = {
           ready: function() {
-            var swifter = weex.require('swifter');
+            var swifter = weex.requireModule('swifter');
             swifter.printSome("https://www.taobao.com",function(param){
               nativeLog(param);
             });
